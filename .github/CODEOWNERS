@@ -1,0 +1,5 @@
+# Each path is owned by the team that must approve changes to it.
+*                     @novatech/platform-team
+/terraform/network/   @novatech/network-team
+/terraform/identity/  @novatech/security-team
+/terraform/policy/    @novatech/security-team
