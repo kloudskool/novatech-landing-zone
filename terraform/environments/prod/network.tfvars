@@ -1,2 +1,2 @@
 environment   = "prod"
-address_space = ["10.20.0.0/16"]
+address_space = ["10.40.0.0/16"]

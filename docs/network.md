@@ -7,4 +7,4 @@ Hub and spoke. The hub holds shared services, firewall and Bastion.
 | Environment | Range |
 | --- | --- |
 | dev | 10.10.0.0/16 |
-| prod | 10.20.0.0/16 |
+| prod | 10.40.0.0/16 |
