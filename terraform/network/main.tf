@@ -18,3 +18,10 @@ resource "azurerm_subnet" "firewall" {
   virtual_network_name = azurerm_virtual_network.hub.name
   address_prefixes     = [cidrsubnet(var.address_space[0], 10, 0)]
 }
+
+resource "azurerm_subnet" "bastion" {
+  name                 = "AzureBastionSubnet"
+  resource_group_name  = var.resource_group_name
+  virtual_network_name = azurerm_virtual_network.hub.name
+  address_prefixes     = [cidrsubnet(var.address_space[0], 10, 1)]
+}
