@@ -15,3 +15,7 @@ Terraform for NovaTech Financial Group's Azure landing zone: hub network, identi
 
 Run `./scripts/validate.sh` from the repo root. It runs `terraform fmt -check` and `terraform validate`.
 Pull requests that fail it will not be reviewed.
+
+## Who approves what
+
+See .github/CODEOWNERS.
