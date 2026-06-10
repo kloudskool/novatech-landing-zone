@@ -10,3 +10,7 @@ Hub and spoke. The hub holds shared services, firewall and Bastion.
 | prod | 10.40.0.0/16 |
 
 The firewall subnet must be named AzureFirewallSubnet. Azure rejects any other name.
+
+## Spokes
+
+Each application team gets a spoke VNet peered to the hub.
