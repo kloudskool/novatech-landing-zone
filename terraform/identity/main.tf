@@ -8,3 +8,8 @@ resource "azurerm_role_assignment" "pipeline_contributor" {
   role_definition_name = "Contributor"
   principal_id         = azurerm_user_assigned_identity.pipeline.principal_id
 }
+resource "azurerm_user_assigned_identity" "backup" {
+  name                = "id-backup-${var.environment}"
+  location            = var.location
+  resource_group_name = var.resource_group_name
+}
