@@ -14,3 +14,5 @@ The firewall subnet must be named AzureFirewallSubnet. Azure rejects any other n
 ## Spokes
 
 Each application team gets a spoke VNet peered to the hub.
+
+The hub firewall inspects all spoke-to-spoke traffic.
